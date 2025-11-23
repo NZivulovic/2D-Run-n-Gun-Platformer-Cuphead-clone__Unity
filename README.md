@@ -2,5 +2,4 @@
 
 # Update 23.11.2025
 
-![Imgur Image](https://imgur.com/a/5BmYK3L)
-
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/5BmYK3L" data-context="false" ><a href="//imgur.com/a/5BmYK3L"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
