@@ -42,7 +42,7 @@ public class enemyProjectile : MonoBehaviour
             player.GetComponent<playerHealth>().takeDamage(damage);
             Destroy(gameObject);
         }
-        else if (collision.CompareTag("Ground") || collision.CompareTag("Wall"))
+        else if (collision.CompareTag("Ground") || collision.CompareTag("Wall") || collision.CompareTag("playerProjectile"))
         {
             Destroy(gameObject);
         }
