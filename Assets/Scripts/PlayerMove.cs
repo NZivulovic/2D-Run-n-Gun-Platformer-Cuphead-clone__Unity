@@ -17,8 +17,8 @@ public class PlayerMove : MonoBehaviour
     private bool is_grounded = false;
 
     private Vector2 thrust;
-    [SerializeField] private float jump_height = 2;
-    [SerializeField] private float move_speed = 10;
+    public float jump_height = 2;
+    public float move_speed = 10;
 
     void Awake()
     {
