@@ -2,4 +2,4 @@
 
 # Update 23.11.2025
 
-![animation](https://github.com/NZivulovic/2D_Run-n-Gun-Platformer---Cuphead-clone---Unity/blob/2d94595c279a3e3a6236569d72b00f2a27f1e2f5/Timeline%201.webp)
+![animation](https://github.com/NZivulovic/2D-Run-n-Gun-Platformer-Cuphead-clone__Unity/blob/9e66ddd49a935dfd332ad59731d97d538d25c427/Timeline_1.mp4)
