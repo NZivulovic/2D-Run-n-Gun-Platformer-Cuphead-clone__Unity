@@ -10,6 +10,7 @@ TagManager:
   - Projectile
   - playerProjectile
   - LevelExit
+  - EnemyBodypart
   layers:
   - Default
   - TransparentFX

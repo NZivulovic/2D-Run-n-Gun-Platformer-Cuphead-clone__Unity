@@ -7,7 +7,7 @@ public class enemyShooting : MonoBehaviour
     public GameObject projectile;
     public Transform projectileStartPos;
     public Transform projectileStartPos1;
-    public Transform projectileStartPos2;
+    // public Transform projectileStartPos2;
 
     private GameObject player;
 
@@ -39,7 +39,7 @@ public class enemyShooting : MonoBehaviour
 
         Instantiate(projectile, projectileStartPos1.position, quaternion.identity);
 
-        Instantiate(projectile, projectileStartPos2.position, quaternion.identity);
+        // Instantiate(projectile, projectileStartPos2.position, quaternion.identity);
         }
     }
 }

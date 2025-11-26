@@ -54,7 +54,7 @@ public class playerProjectile : MonoBehaviour
             enemy.GetComponent<enemyHealth>().takeDamageEnemy(damage);
             Destroy(gameObject);
         }
-        else if (other.CompareTag("Wall") || other.CompareTag("Ground") || other.CompareTag("Projectile") || other.CompareTag("Player"))
+        else if (other.CompareTag("Wall") || other.CompareTag("Ground") || other.CompareTag("Projectile") || other.CompareTag("Player") || other.CompareTag("EnemyBodypart"))
         {
             Destroy(gameObject);
         }
