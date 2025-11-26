@@ -17,7 +17,10 @@ public class enemyFollow : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
+        if(player != null)
+        {
         Vector3 playerPos = player.transform.position - transform.position;
         rb.linearVelocity = new Vector2(playerPos.x, playerPos.y + 20);
+        }
     }
 }

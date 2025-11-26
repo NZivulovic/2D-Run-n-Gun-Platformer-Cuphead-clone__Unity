@@ -9,13 +9,15 @@ public class enemyShooting : MonoBehaviour
     public Transform projectileStartPos1;
     public Transform projectileStartPos2;
 
+    private GameObject player;
+
     private float timer;
     
     public float fireRate;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        
+        player = GameObject.FindGameObjectWithTag("Player");
     }
 
     // Update is called once per frame
@@ -31,11 +33,13 @@ public class enemyShooting : MonoBehaviour
     
     private void shoot()
     {
+        if(player != null)
+        {
         Instantiate(projectile, projectileStartPos.position, quaternion.identity);
 
         Instantiate(projectile, projectileStartPos1.position, quaternion.identity);
 
         Instantiate(projectile, projectileStartPos2.position, quaternion.identity);
-
+        }
     }
 }

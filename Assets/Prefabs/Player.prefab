@@ -234,7 +234,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 0.26383942, g: 0.27168036, b: 0.7264151, a: 1}
+  m_Color: {r: 0.14960839, g: 0.16018428, b: 0.7735849, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -334,6 +334,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   maxHealth: 100
+  health: 0
 --- !u!114 &8776045209541981246
 MonoBehaviour:
   m_ObjectHideFlags: 0
